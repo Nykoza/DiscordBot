@@ -4,19 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="be65523c-8fe4-4540-bc0e-06e099ba989e" name="Changes" comment="prettier">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="be65523c-8fe4-4540-bc0e-06e099ba989e" name="Changes" comment="pcsBot, intents options, quiz">
+      <change afterPath="$PROJECT_DIR$/src/commands/rockPapierScissors.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/commands/rockPapierScissorsAI.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/commands/skiQuiz.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/commands/_CommandList.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/commands/_CommandList.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/commands/hello.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/commands/hello.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/config/IntentOptions.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/config/IntentOptions.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/events/onInteraction.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/events/onInteraction.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/events/onReady.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/events/onReady.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/interfaces/Command.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/interfaces/Command.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn-error.log" beforeDir="false" afterPath="$PROJECT_DIR$/yarn-error.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +45,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Projets/DiscordJs/DiscordBot",
+    "last_opened_file_path": "C:/Projets/DiscordJs/DiscordBot/src/commands",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -59,10 +54,14 @@
     "prettierjs.PrettierConfiguration.Package": "C:\\Projets\\DiscordJs\\DiscordBot\\node_modules\\prettier",
     "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
     "ts.external.directory.path": "C:\\Projets\\DiscordJs\\DiscordBot\\node_modules\\typescript\\lib",
+    "two.files.diff.last.used.file": "C:/Projets/DiscordJs/DiscordBot/src/commands/rockPapierScissors.ts",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Projets\DiscordJs\DiscordBot\src\commands" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Projets\DiscordJs\test\src\listeners" />
     </key>
@@ -97,7 +96,8 @@
       <workItem from="1686344849802" duration="118000" />
       <workItem from="1686344974514" duration="1123000" />
       <workItem from="1686346352302" duration="44000" />
-      <workItem from="1686346401216" duration="438000" />
+      <workItem from="1686346401216" duration="4332000" />
+      <workItem from="1686386839288" duration="10790000" />
     </task>
     <task id="LOCAL-00001" summary="prettier">
       <created>1686346662080</created>
@@ -106,7 +106,21 @@
       <option name="project" value="LOCAL" />
       <updated>1686346662080</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="prettier">
+      <created>1686346934156</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1686346934156</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Options choices for slashCommand">
+      <created>1686353813323</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1686353813323</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -125,6 +139,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="prettier" />
-    <option name="LAST_COMMIT_MESSAGE" value="prettier" />
+    <MESSAGE value="Options choices for slashCommand" />
+    <MESSAGE value="pcsBot, intents options, quiz" />
+    <option name="LAST_COMMIT_MESSAGE" value="pcsBot, intents options, quiz" />
   </component>
 </project>
